@@ -1,0 +1,185 @@
+/*
+Filename: style3.css
+Date: 7/14/20
+Programmer: Maqsuda Kabir 
+*/
+ 
+
+html, body {
+    margin: 0;
+    height: 100%; 
+    text-align: center;
+    
+}
+
+body {
+        background-color: #0018F9;
+        color: #ffffff;
+        font-family: 'Open Sans';
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+select {
+     display: block; 
+     background-color: cadetblue;
+     margin-bottom: auto; 
+     font-size: 1em;
+     color: white;
+     width: 420px;
+     overflow: hidden;
+     
+     }
+
+input, textarea {
+    display: block; 
+   font-size: 0.7em;
+    background-color: gray;
+    color: white;
+    margin-bottom: 1em; 
+}
+
+/* MOBILE CSS Code and up */
+@media only screen and (min-width:320px) {
+    
+    header {
+     width: 550px; 
+     font-size: 3em;
+}
+    select {
+     display: block; 
+     font-size: 0.9em;
+     color: #ffffff; 
+     background-color: cadetblue;
+     padding:0;
+        
+     }
+   #mobile {
+          display: inline; 
+          }
+     
+     #desktop { display: none; 
+          }
+}
+
+@media only screen and (max-width: 768px) {
+     
+    header {
+     text-align: center;
+        font-size: 3em;
+     }
+  
+    select {
+     display: block; 
+     margin-bottom: auto; 
+     font-size: 1em;
+     color: #fff; 
+     background-color: cadetblue;
+     padding:0;
+        
+     }
+        
+     #mobile {
+          display: inline; 
+          }
+     
+     #desktop { display: none; 
+          }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+  background-color: #0018F9;
+}
+.plate {
+  width: 90%;
+  margin: 10% auto;
+  text-align: center;
+}
+.shadow {
+  color: #fff;
+  font-family: Unset;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 1.6em;
+  letter-spacing: 0.2em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+  padding-left: 500px;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #ffffff;
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  margin:0;
+ padding-left: 500px;
+}
+.script span {
+  background-color: #FFFFFF;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 5px solid #fff;
+}
+.text1 {
+  font-size: 100px;
+    float:none;
+}
+
+@media only screen and (max-width: 1024px) {
+    width: 100%;
+    height: auto;
+    margin-right: 3em;
+    text-align: center;
+}
+    
+    header {
+     text-align: center;
+        font-size: 6em;
+     }
+    
+     body {
+          margin: 0; 
+          padding: 0;  
+          background-color: #0018F9;
+        
+          }
+    
+    select {
+     display: block; 
+     margin-bottom:auto; 
+     font-size: 0.8em;
+     color: #FFFFFF;
+     background-color: cadetblue;
+        
+     }
+}
+   
+   
+
+
+
+
